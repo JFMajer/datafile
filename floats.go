@@ -8,8 +8,8 @@ import (
 )
 
 // GetFloats reads a float64 from each of a provided file.
-func GetFloats(fileName string) ([3]float64, error) {
-	var numbers [3]float64
+func GetFloats(fileName string) ([4]float64, error) {
+	var numbers [4]float64
 	file, err := os.Open(fileName)
 	if err != nil {
 		return numbers, err
