@@ -1,4 +1,5 @@
 // this function allows reading strings from provided files
+package datafile
 
 import (
 	"bufio"
